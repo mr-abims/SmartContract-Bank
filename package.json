@@ -1,0 +1,11 @@
+{
+  "name": "SmartContract_Bank",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mr-abims/SmartContract-Bank.git",
+  "author": "mr-abims <adebayoabimbola9@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hardhat": "^2.9.1"
+  }
+}
