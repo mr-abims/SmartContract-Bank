@@ -1,3 +1,4 @@
+const hre = require("hardhat");
 async function main() {
   const [owner] = await hre.ethers.getSigners();
   const BankContractFactory = await hre.ethers.getContractFactory("Bank");

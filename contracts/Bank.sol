@@ -12,7 +12,7 @@ contract Bank {
     }
 
     function depositMoney() public payable {
-        require(msg.value != 0, "You need to deposit some amount of money!");
+        require(msg.value != 0, "You cannot deposit an empty amount!");
         customerBalance[msg.sender] += msg.value;
     }
 
